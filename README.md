@@ -2,16 +2,16 @@
 
 
 
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for_the_badge&logo=JavaScript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for_the_badge&logo=TypeScript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for_the_badge&logo=Node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-%23E0234E.svg?style=for_the_badge&logo=NestJS&logoColor=white)
-  
-![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=for_the_badge&logo=PHP&logoColor=white)
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-%23DD4814.svg?style=for_the_badge&logo=CodeIgniter&logoColor=white)
-  
-![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for_the_badge&logo=MySQL&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for_the_badge&logo=PostgreSQL&logoColor=white)
+[![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for_the_badge&logo=JavaScript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for_the_badge&logo=TypeScript&logoColor=white)](https://www.typescriptlang.org/docs/)
+[![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for_the_badge&logo=Node.js&logoColor=white)](https://nodejs.org/en/docs/)
+[![NestJS](https://img.shields.io/badge/NestJS-%23E0234E.svg?style=for_the_badge&logo=NestJS&logoColor=white)](https://docs.nestjs.com/)
+
+[![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=for_the_badge&logo=PHP&logoColor=white)](https://www.php.net/docs.php)
+[![CodeIgniter](https://img.shields.io/badge/CodeIgniter-%23DD4814.svg?style=for_the_badge&logo=CodeIgniter&logoColor=white)](https://codeigniter.com/user_guide/index.html)
+
+[![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for_the_badge&logo=MySQL&logoColor=white)](https://dev.mysql.com/doc/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for_the_badge&logo=PostgreSQL&logoColor=white)](https://www.postgresql.org/docs/)
 
 
 :pencil2: *studying....*
