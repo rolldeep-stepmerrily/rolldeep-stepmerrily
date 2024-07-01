@@ -17,4 +17,6 @@
 :pencil2: *studying....*
 
  
-![AWS_CCP](https://img.shields.io/badge/AWS_CCP-FF9900.svg?style=for_the_badge&logo=amazonwebservices&logoColor=%23000000)
+![AWS_CCP](https://img.shields.io/badge/AWS_CCP-FF9900.svg?style=for_the_badge&logo=amazonwebservices&logoColor=%23000000)   
+![Bass Guitar](https://img.shields.io/badge/Bass_Guitar-FF5500.svg?style=for_the_badge&logo=soundcloud&logoColor=white)
+
