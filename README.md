@@ -17,6 +17,7 @@
 :pencil2: *studying....*
 
  
-![AWS_CCP](https://img.shields.io/badge/AWS_CCP-FF9900.svg?style=for_the_badge&logo=amazonwebservices&logoColor=%23000000)   
-![Bass Guitar](https://img.shields.io/badge/Bass_Guitar-FF5500.svg?style=for_the_badge&logo=soundcloud&logoColor=white)
+[![AWS_CCP](https://img.shields.io/badge/AWS_CCP-FF9900.svg?style=for_the_badge&logo=amazonwebservices&logoColor=%23000000)](https://aws.amazon.com/ko/certification/certified-cloud-practitioner/)
+  
+[![Bass Guitar](https://img.shields.io/badge/Bass_Guitar-FF5500.svg?style=for_the_badge&logo=soundcloud&logoColor=white)](https://en.wikipedia.org/wiki/Bass_guitar)
 
