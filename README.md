@@ -16,7 +16,7 @@ const rolldeep = {
     const now = dayjs();
     const timeUntilBirth = birthDate.diff(now, 'millisecond');
     
-    const waitForBaby = () => new Promise(resolve => {
+    const waitForBaby = () => new Promise<string>(resolve => {
       setTimeout(() => {
         resolve(`${rolldeep.family.baby.name}이가 태어났어요! 👶`);
       }, Math.max(0, timeUntilBirth));
