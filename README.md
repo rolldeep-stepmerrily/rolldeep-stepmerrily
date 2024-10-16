@@ -15,11 +15,4 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for_the_badge&logo=PostgreSQL&logoColor=white)](https://www.postgresql.org/docs/)
   
 [![AWS_CCP](https://img.shields.io/badge/AWS_CCP-FF9900.svg?style=for_the_badge&logo=amazonwebservices&logoColor=%23000000)](https://aws.amazon.com/ko/certification/certified-cloud-practitioner/)
-  
-:pencil2: *studying....*
-
  
-
-  
-[![Bass Guitar](https://img.shields.io/badge/Bass_Guitar-FF5500.svg?style=for_the_badge&logo=soundcloud&logoColor=white)](https://en.wikipedia.org/wiki/Bass_guitar)
-
