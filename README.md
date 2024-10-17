@@ -21,7 +21,6 @@ const rolldeep: Developer & Daddy = {
   },
   lifeStatus: async () => {
     const { baby } = rolldeep.family;
-
     const birthDate = baby.getBirthDate();
     const now = dayjs();
     const timeUntilBirth = birthDate.diff(now, 'millisecond');
@@ -36,7 +35,6 @@ const rolldeep: Developer & Daddy = {
     const waitForBaby = () => {
       return new Promise<string>((resolve) => {
         let messageIndex = 0;
-
         const messageInterval = setInterval(() => {
           console.log(messages[messageIndex]);
 
@@ -46,9 +44,7 @@ const rolldeep: Developer & Daddy = {
         setTimeout(
           () => {
             baby.isBorn = true;
-
             clearInterval(messageInterval);
-
             resolve(`${baby.name}이가 태어났어요! 👶`);
           },
           Math.max(0, timeUntilBirth),
