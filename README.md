@@ -20,17 +20,20 @@ const rolldeep: Developer = {
     bass: 'practice hard 🎸',
   },
   lifeStatus: async () => {
-    const baby = rolldeep.family.baby;
+    const { baby } = rolldeep.family;
     const birthDate = baby.getBirthDate();
     const now = dayjs();
     const timeUntilBirth = birthDate.diff(now, 'millisecond');
 
     const waitForBaby = () =>
       new Promise<string>((resolve) => {
-        setTimeout(() => {
-          baby.isBorn = true;
-          resolve(`${baby.name}이가 태어났어요! 👶`);
-        }, Math.max(0, timeUntilBirth));
+        setTimeout(
+          () => {
+            baby.isBorn = true;
+            resolve(`${baby.name}이가 태어났어요! 👶`);
+          },
+          Math.max(0, timeUntilBirth),
+        );
       });
 
     return await waitForBaby();
