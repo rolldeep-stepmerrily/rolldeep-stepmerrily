@@ -1,5 +1,5 @@
 ```typescript
-const rolldeep = {
+const rolldeep: Developer & Daddy = {
   dev: {
     coding: 'with my not smart 🧠',
     favorite: {
@@ -21,20 +21,22 @@ const rolldeep = {
   },
   lifeStatus: async () => {
     const { baby } = rolldeep.family;
+
     const birthDate = baby.getBirthDate();
     const now = dayjs();
     const timeUntilBirth = birthDate.diff(now, 'millisecond');
 
     const messages = [
-      `${baby.name}아 하루 빨리 보고싶다 🥰`,
+      `${baby.name}아 하루 빨리 보고 싶다 🥰`,
       '건강하게 잘 자라고 있지? 😊',
       '아빠가 든든하게 지켜줄게 💪',
       '엄마랑 사이좋게 지내고 있어 👍',
     ];
 
-    const waitForBaby = () =>
-      new Promise<string>((resolve) => {
+    const waitForBaby = () => {
+      return new Promise<string>((resolve) => {
         let messageIndex = 0;
+
         const messageInterval = setInterval(() => {
           console.log(messages[messageIndex]);
 
@@ -52,11 +54,11 @@ const rolldeep = {
           Math.max(0, timeUntilBirth),
         );
       });
+    };
 
     return await waitForBaby();
   },
 };
 
 export default rolldeep;
-
 ```
