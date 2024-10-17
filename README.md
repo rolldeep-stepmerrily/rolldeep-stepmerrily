@@ -35,5 +35,5 @@ const rolldeep: Developer = {
   },
 };
 
-export default Object.freeze(rolldeep);
+export default rolldeep;
 ```
