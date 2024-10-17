@@ -17,7 +17,7 @@ const rolldeep: Developer = {
     },
   },
   hobby: {
-    bass: 'practice hard 🎸',
+    bass: 'practicing diligently 🎸',
   },
   lifeStatus: async () => {
     const { baby } = rolldeep.family;
