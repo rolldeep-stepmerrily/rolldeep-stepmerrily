@@ -13,6 +13,7 @@ const rolldeep: Developer = {
     baby: {
       name: '☀️햇살',
       getBirthDate: () => dayjs('2025-04-05'),
+      isBorn: false,
     },
   },
   hobby: {
@@ -27,6 +28,7 @@ const rolldeep: Developer = {
     const waitForBaby = () =>
       new Promise<string>((resolve) => {
         setTimeout(() => {
+          baby.isBorn = true;
           resolve(`${baby.name}이가 태어났어요! 👶`);
         }, Math.max(0, timeUntilBirth));
       });
