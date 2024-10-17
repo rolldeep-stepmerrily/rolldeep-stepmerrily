@@ -2,7 +2,7 @@
 const rolldeep: Developer = {
   dev: {
     coding: 'with my not smart 🧠',
-    favorites: {
+    favorite: {
       language: 'TypeScript',
       framework: 'NestJS',
       orm: 'Prisma',
