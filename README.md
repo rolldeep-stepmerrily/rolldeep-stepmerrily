@@ -12,8 +12,8 @@ const rolldeep: Developer = {
     wife: '❤️'.repeat(Number.MAX_SAFE_INTEGER),
     baby: {
       name: '☀️햇살',
-      getBirthDate: () => dayjs('2025-04-05'),
       isBorn: false,
+      getBirthDate: () => dayjs('2025-04-05'),
     },
   },
   hobby: {
