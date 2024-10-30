@@ -12,7 +12,7 @@ const rolldeep: Developer & Daddy = {
     wife: '❤️'.repeat(Number.MAX_SAFE_INTEGER),
     baby: {
       name: '☀️햇살',
-      gender: MALE,
+      gender: EGender.MALE,
       isBorn: false,
       getBirthDate: () => dayjs('2025-04-05'),
     },
