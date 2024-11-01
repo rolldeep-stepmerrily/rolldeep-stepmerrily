@@ -26,7 +26,7 @@ const rolldeep: Developer & Daddy = {
     const now = dayjs();
     const timeUntilBirth = birthDate.diff(now, 'millisecond');
 
-    const messages = [
+    const messages: readonly string[] = [
       `${baby.name}아 하루 빨리 보고싶다 🥰`,
       '건강하게 잘 자라고 있지? 😊',
       '엄마랑 사이좋게 지내고 있어 💞',
