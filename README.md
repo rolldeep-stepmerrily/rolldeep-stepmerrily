@@ -56,6 +56,4 @@ const nowplayingman: Developer & Daddy = {
     return await waitForBaby();
   },
 };
-
-export default rolldeep;
 ```
