@@ -1,5 +1,5 @@
 ```typescript
-const rolldeep: Developer & Daddy = {
+export const rolldeep: Developer & Daddy = {
   dev: {
     coding: 'with my not smart 🧠',
     favorite: {
