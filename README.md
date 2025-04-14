@@ -14,7 +14,7 @@ export const rolldeep: Developer & Daddy = {
       name: '☀️햇살',
       gender: EGender.MALE,
       isBorn: false,
-      getBirthDate: () => dayjs('2025-04-05'),
+      getBirthDate: () => dayjs('2025-04-04'),
     },
   },
   hobby: {
