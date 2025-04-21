@@ -11,8 +11,8 @@ export const rolldeep: Developer & Daddy = {
   family: {
     wife: '❤️'.repeat(Number.MAX_SAFE_INTEGER),
     baby: {
-      name: '이현',
-      gender: EGender.MALE,
+      name: { first: '현', last: '이' },
+      gender: Gender.MALE,
       isBorn: true,
       getBirthDate: () => dayjs('2025-04-04'),
     },
@@ -24,7 +24,7 @@ export const rolldeep: Developer & Daddy = {
     const { baby } = rolldeep.family;
     const birthDate = baby.getBirthDate();
     const now = dayjs();
-    const babyAge = now.diff(birthDate, 'day');
+    const babyAge = now.diff(birthDate, 'day') + 1;
 
     const parentingActivities = [
       '분유 먹이기 🍼',
@@ -38,7 +38,7 @@ export const rolldeep: Developer & Daddy = {
 
     const parenting = () => {
       return new Promise<string>((resolve) => {
-        console.log(`${baby.name}이(${babyAge}일차) 육아 시작!`);
+        console.log(`${baby.name.first}이 ${babyAge}일차 육아 시작!`);
 
         let activityIndex = 0;
         const activityInterval = setInterval(() => {
@@ -49,13 +49,16 @@ export const rolldeep: Developer & Daddy = {
           activityIndex = (activityIndex + 1) % parentingActivities.length;
         }, 2000);
 
-        setTimeout(() => {
-          clearInterval(activityInterval);
+        setTimeout(
+          () => {
+            clearInterval(activityInterval);
 
-          console.log(`${baby.name}이가 잠들었습니다...`);
+            console.log(`${baby.name.first}이는 이제 잠들었습니다...`);
 
-          resolve('3시간 동안 쉬는 시간!');
-        }, 10800000); // 3 hours
+            resolve('3시간 동안 쉬는 시간!');
+          },
+          3600 * 1000 * 3, // 3 hours
+        );
       });
     };
 
