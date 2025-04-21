@@ -39,6 +39,7 @@ export const rolldeep: Developer & Daddy = {
     const parenting = () => {
       return new Promise<string>((resolve) => {
         console.log(`${baby.name}이(${babyAge}일차) 육아 시작!`);
+
         let activityIndex = 0;
         const activityInterval = setInterval(() => {
           const currentActivity = parentingActivities[activityIndex];
