@@ -8,6 +8,9 @@ export const rolldeep: Developer & Daddy = {
       orm: 'Prisma',
     },
   },
+  hobby: {
+    bass: 'practicing diligently 🎸',
+  },
   family: {
     wife: '❤️'.repeat(Number.MAX_SAFE_INTEGER),
     baby: {
@@ -16,9 +19,6 @@ export const rolldeep: Developer & Daddy = {
       isBorn: true,
       getBirthDate: () => dayjs('2025-04-04'),
     },
-  },
-  hobby: {
-    bass: 'practicing diligently 🎸',
   },
   lifeStatus: async () => {
     const { baby } = rolldeep.family;
